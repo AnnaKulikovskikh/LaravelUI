@@ -8,5 +8,8 @@
     </head>
     <body>
         <h1>{{ $text }} </h1>
+        <div>Имя: {{ Auth::user()->name }}</div>
+        <div>Электронная почта: {{ Auth::user()->email }}</div>
+        <div>ID: {{ Auth::user()->id }}</div>
     </body>
 </html>
